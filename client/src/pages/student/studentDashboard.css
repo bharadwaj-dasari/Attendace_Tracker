@@ -1,0 +1,76 @@
+.student-dashboard{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.header {
+    text-align: center;
+    margin-bottom: 1.33rem;
+    
+  }
+
+  .header-content{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+  }
+  .profile-section{
+    position: absolute;
+    right: 4rem;
+    top: 2.7rem;
+  }
+.body{
+    margin: 2rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.1);
+}
+.sem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sem label{
+    font-size: 1.3rem;
+}
+#select-sem{
+    height: 2rem;
+    width: 71%;
+    font-size: 1rem;
+}
+.view{
+    height: 2.2rem;
+   padding:0 2rem 0 2rem ;
+   font-size: 1rem;
+}
+
+.view:hover {
+    background-color: #45a049;
+  }
+
+  .attendance-box {
+    overflow-x: auto;
+  }
+  
+  .attendance {
+    margin-top: 1.33rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  

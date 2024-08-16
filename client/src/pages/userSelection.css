@@ -1,0 +1,44 @@
+.user-selection {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+  }
+  
+  .role-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+
+  }
+  
+  .role-button {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    height: 10rem;
+    width: 16rem;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.33rem;
+    font-size: 1.6rem;
+    transition: background-color 0.3s ease,transform 0.5s ease;
+  }
+  
+  .role-button:hover {
+    background-color: #45a049;
+    transform:  scale(1.07);
+  }
+  
+  @media (min-width: 768px) {
+    .role-options {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .role-button {
+      margin: 0 1rem;
+    }
+  }
+  

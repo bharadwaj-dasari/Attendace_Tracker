@@ -1,0 +1,153 @@
+.add-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input {
+  max-width: 35%;
+}
+
+.class-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.class-table th, .class-table td {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.class-table th {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.class-table th {
+  border: none;
+}
+
+.actions {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.edit-button, .update-button, .cancel-button, .delete-button, .add-student-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.update-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button {
+  background-color: white;
+  color: #ff1908;
+  transition: background-color, color;
+}
+
+.delete-button:hover {
+  background-color: white;
+  color: rgb(172, 0, 0);
+}
+
+.add-student-button {
+  background-color: transparent;
+  color: gray;
+  transition: background-color, color;
+}
+
+.add-student-button:hover {
+  background-color: white;
+  color: rgb(35, 29, 29);
+}
+
+.input-update {
+  margin: 0%;
+  height: 0.69rem;
+}
+
+.delete-button i, .add-student-button i {
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  background-color: #f9f9f9;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+button {
+  height: 35.58px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}

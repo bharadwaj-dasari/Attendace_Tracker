@@ -1,0 +1,10 @@
+#roll-input{
+    margin-left: 0.6rem;
+    width: 81%;
+    border: 1px solid black;
+    
+}
+
+.roll label{
+    font-size: 1.2rem;
+}

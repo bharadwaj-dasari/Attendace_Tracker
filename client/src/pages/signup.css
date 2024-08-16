@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.signup-page{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.app {
+  text-align: center;
+}
+
+.container {
+  width: 25rem;
+  margin: 3.133rem ;
+  padding: 1.33rem;
+  background: white;
+  box-shadow: 0 0 0.633rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.633rem;
+  margin-bottom: 7.5rem;
+}
+
+h2 {
+  margin-bottom: 1.33rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+label {
+  margin-bottom: 0.316rem;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.633rem;
+  border: 1px solid #ddd;
+  border-radius: 0.316rem;
+  
+}
+
+button {
+  padding: 0.633rem;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 0.316rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.sP{
+display: flex;
+justify-content: center;
+}
+
+.back{
+   background-color: transparent;
+   color: #653A8B;
+   text-decoration: underline;
+   font-size: 1rem;
+   padding-left: 0.1rem;
+   transition: hover;
+}
+
+.container p{
+    font-size: 1rem;
+}
+
+.back:hover{
+  background-color: transparent;
+}
+
