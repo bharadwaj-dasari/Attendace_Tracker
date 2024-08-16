@@ -4,8 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon app.js",  
+    "client": "npm start --prefix client", 
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
@@ -27,6 +29,7 @@
     "sequelize": "^6.37.3"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "nodemon": "^2.0.22"
   }
 }

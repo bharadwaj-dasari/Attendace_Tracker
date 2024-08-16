@@ -21,12 +21,10 @@ const port = process.env.PORT || 5555;
 
 app.use(express.json());
 app.use(cors({
-  origin: '*'
+  origin: 'http://localhost:3001'
 }));
 app.use(helmet());
 
-
-app.use(express.static(path.join(__dirname, '../client/build')));
 
 // API routes
 app.use('/api/admin', adminRoutes);
@@ -36,10 +34,6 @@ app.use('/api/class', classRoutes);
 app.use('/api/courses', courseRoutes);
 app.use('/api/attendance', attendanceRoutes);
 
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
-});
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
