@@ -38,7 +38,13 @@ function AdminSignUp() {
 
       if (data.token) {
         alert('Signup successful');
-        navigate(`/${role}/${role}Dashboard`);
+        navigate(`/${role}/${role}Dashboard`, { 
+          state: { 
+            user: data.user, 
+            email: email,
+            password: password,
+          } 
+        });
       } else {
         throw new Error('Token not received in response');
       }

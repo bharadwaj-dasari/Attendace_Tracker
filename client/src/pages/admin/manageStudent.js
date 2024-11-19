@@ -94,7 +94,7 @@ const ManageStudents = () => {
       if (response.ok) {
         const data = await response.json();
         setStudents(data);
-        setUpdatedStudents([...data]);
+        setFilteredStudents(data);
       } else {
         console.error('Failed to fetch students');
       }
